@@ -1,11 +1,13 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: skyblue;
 }
 
 .image{
-    border: 5px solid green;
+    border: 5px solid bisque;
     border-radius: 10px;
     height: 400px;
+    margin-left: 25%;
+
 }
 
 .link-button {
@@ -16,4 +18,28 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+}
+
+h1 {
+    text-align: center;
+    background-color: bisque;
+    color:steelblue;
+    font-size: 400%;
+    margin-top: -0.6%;
+    margin-left: -0.6%;
+    margin-right: -0.6%;
+}
+.estrella {
+animation: brillo 1.5s infinite alternate;
+}
+
+@keyframes brillo {
+  0% {
+    text-shadow: 0 0 5px skyblue, 0 0 10px skyblue;
+    transform: scale(1);
+  }
+  100% {
+    text-shadow: 0 0 15px gold, 0 0 30px orange;
+    transform: scale(1.2);
+  }
 }
