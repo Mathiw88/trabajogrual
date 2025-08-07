@@ -1,5 +1,7 @@
 body {
     background-color: rgb(255, 255, 165);
+    transition: opacity 1s ease;
+    opacity: 1;
 }
 
 .image {
@@ -25,4 +27,10 @@ body {
     background-color: #45a049;
     transform: scale(1.05);
     transform: scale(0.95);
+}
+
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease;
 }
